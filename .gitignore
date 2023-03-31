@@ -2,5 +2,5 @@ src/
 vendor/
 gulpfile.js
 package-lock.json
-package.json
 .env
+package.json
