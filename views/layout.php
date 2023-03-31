@@ -37,7 +37,9 @@
                 <div class="derecha">
                     <img class="dark-mode-boton" src="/build/img/dark-mode.svg" alt="Boton Dark Mode">
                     <nav class="navegacion">
+                        <?php if ($inicio && !$autenticado) : ?>
                         <a href="/login">Iniciar Sesion</a>
+                        <?php endif ?>
                         <a href="/nosotros">Nosotros</a>
                         <a href="propiedades">Anuncios</a>
                         <a href="/blog">Blog</a>
