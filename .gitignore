@@ -1,6 +1,0 @@
-src/
-vendor/
-gulpfile.js
-package-lock.json
-.env
-package.json

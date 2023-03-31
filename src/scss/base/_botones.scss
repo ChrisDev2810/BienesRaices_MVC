@@ -1,0 +1,23 @@
+.boton-amarillo-block{
+    @include boton($amarillo, block); //Usa todo espacio disponible
+}
+
+.boton-amarillo-inline{
+    @include boton($amarillo, inline-block); //Usa solo un pequeño espacio disponible
+}
+
+.boton-verde{
+    @include boton($verde, block);//Usa todo espacio disponible
+    margin-top: 2rem;
+}
+
+.boton-verde-inline{
+    @include boton($verde, inline-block); //Usa solo un pequeño espacio disponible
+}
+
+.botonRojo-block{
+    @include boton($rojo, block);
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+}
