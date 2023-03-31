@@ -1,0 +1,5 @@
+src/
+vendor/
+gulpfile.js
+package.json
+package-lock.json
