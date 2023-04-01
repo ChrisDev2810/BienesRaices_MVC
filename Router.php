@@ -33,7 +33,7 @@ Class Router{
             '/vendedores/eliminar'
         ]; //Mismo formato de $urlActual
 
-        $urlActual = $_SERVER['PATH_INFO'] ?? '/';
+        $urlActual = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
         $metodo = $_SERVER['REQUEST_METHOD'];
 
         if($metodo === 'GET'){
